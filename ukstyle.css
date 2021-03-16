@@ -1,0 +1,47 @@
+
+       
+       
+       *{
+
+            direction: rtl;
+        }
+        .background{
+      
+            height: 360%;
+            width: 100%;
+           
+
+background: linear-gradient(-20deg, #ffa3c8 , rgb(140, 0, 255));
+     background-size: 1000%;
+animation: alan 10s infinite;
+ 
+
+
+        }
+        
+        .grey-image{
+            filter: grayscale(100%);
+        }
+        .grey-image:hover{
+           
+            filter: grayscale(0%);
+        }
+
+@keyframes alan {
+0%{
+    background-position: 0% 50%;
+
+
+}
+50%{
+    background-position: 100% 50%;
+
+
+}
+100%{
+    background-position: 0% 50%;
+
+
+}}
+
+
